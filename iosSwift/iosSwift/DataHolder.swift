@@ -10,4 +10,27 @@ import UIKit
 
 class DataHolder: NSObject {
 
+    static let sharedInstance:DataHolder=DataHolder()
+    var numeroCeldasColeccion:UInt=6
+    var Usuario:String?
+    var Contraseña:String?
+    func nombreDeCelda(numero:Int) -> NSString {
+        
+        if (numero==0) {
+            return "asdf"
+        }else if(numero==1){
+            return "af"
+        }else if(numero==2){
+            return "sdf"
+        }else if(numero==3){
+            return "adf"
+        }else if (numero==4){
+            return "asd"
+        }
+        return ""
+    }
+
 }
+    
+    
+

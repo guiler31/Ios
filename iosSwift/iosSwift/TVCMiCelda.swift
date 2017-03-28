@@ -9,7 +9,12 @@
 import UIKit
 
 class TVCMiCelda: UITableViewCell {
-
+    
+    @IBOutlet var lblNombre: UILabel?
+    @IBOutlet var foto: UIImageView?
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

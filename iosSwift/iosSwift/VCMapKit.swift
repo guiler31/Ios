@@ -5,11 +5,12 @@
 //  Created by Guillermo Rodríguez Sainz on 28/3/17.
 //  Copyright © 2017 Guillermo Rodríguez Sainz. All rights reserved.
 //
-
+import MapKit
 import UIKit
 
 class VCMapKit: UIViewController {
-
+    
+    @IBOutlet var mapa: MKMapView?
     override func viewDidLoad() {
         super.viewDidLoad()
 
